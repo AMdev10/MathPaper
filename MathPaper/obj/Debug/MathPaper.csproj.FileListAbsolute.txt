@@ -1,0 +1,9 @@
+c:\users\amdev\documents\visual studio 2015\Projects\MathPaper\bin\Debug\MathPaper.exe.config
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\bin\Debug\MathPaper.exe
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\bin\Debug\MathPaper.pdb
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.csprojResolveAssemblyReference.cache
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.Form1.resources
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.Properties.Resources.resources
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.csproj.GenerateResource.Cache
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.exe
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.pdb
