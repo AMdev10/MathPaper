@@ -26,11 +26,6 @@ namespace MathPaper
             textBox20.Text = "Result";
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void adunareBtn_Click(object sender, EventArgs e)
         {
             float num1 = 0;
