@@ -28,22 +28,22 @@ namespace MathPaper
 
         private void adunareBtn_Click(object sender, EventArgs e)
         {
-            float num1 = 0;
-            num1 = Convert.ToInt32(textBox1.Text);
+            double num1 = 0;
+            num1 = Convert.ToDouble32(textBox1.Text);
 
-            float num2 = 0;
-            num2 = Convert.ToInt32(textBox2.Text);
+            double num2 = 0;
+            num2 = Convert.ToDouble32(textBox2.Text);
 
-            float num3 = num1 + num2;
+            double num3 = num1 + num2;
 
             textBox3.Text = num3.ToString();
         }
 
         private void textBox1_Validating(object sender, CancelEventArgs e)
         {
-            float num1 = 0;
+            double num1 = 0;
 
-            if (!float.TryParse(textBox1.Text, out num1))
+            if (!double.TryParse(textBox1.Text, out num1))
             {
                 if (textBox1.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -57,9 +57,9 @@ namespace MathPaper
 
         private void textBox2_Validating(object sender, CancelEventArgs e)
         {
-            float num2 = 0;
+            double num2 = 0;
 
-            if (!float.TryParse(textBox2.Text, out num2))
+            if (!double.TryParse(textBox2.Text, out num2))
             {
                 if (textBox2.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -80,22 +80,22 @@ namespace MathPaper
 
         private void scadereBtn_Click(object sender, EventArgs e)
         {
-            float num4 = 0;
-            num4 = Convert.ToInt32(textBox4.Text);
+            double num4 = 0;
+            num4 = Convert.ToDouble32(textBox4.Text);
 
-            float num5 = 0;
+            double num5 = 0;
             num5 = Convert.ToInt32(textBox5.Text);
 
-            float num6 = num4 - num5;
+            double num6 = num4 - num5;
 
             textBox6.Text = num6.ToString();
         }
 
         private void textBox4_Validating(object sender, CancelEventArgs e)
         {
-            float num4 = 0;
+            double num4 = 0;
 
-            if (!float.TryParse(textBox4.Text, out num4))
+            if (!double.TryParse(textBox4.Text, out num4))
             {
                 if (textBox4.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -109,9 +109,9 @@ namespace MathPaper
 
         private void textBox5_Validating(object sender, CancelEventArgs e)
         {
-            float num5 = 0;
+            double num5 = 0;
 
-            if (!float.TryParse(textBox5.Text, out num5))
+            if (!double.TryParse(textBox5.Text, out num5))
             {
                 if (textBox5.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -141,22 +141,22 @@ namespace MathPaper
 
         private void inmultireBtn_Click(object sender, EventArgs e)
         {
-            float num7 = 0;
-            num7 = Convert.ToInt32(textBox7.Text);
+            double num7 = 0;
+            num7 = Convert.ToDouble32(textBox7.Text);
 
-            float num8 = 0;
-            num8 = Convert.ToInt32(textBox8.Text);
+            double num8 = 0;
+            num8 = Convert.ToDouble32(textBox8.Text);
 
-            float num9 = num7 * num8;
+            double num9 = num7 * num8;
 
             textBox9.Text = num9.ToString();
         }
 
         private void textBox7_Validating(object sender, CancelEventArgs e)
         {
-            float num7 = 0;
+            double num7 = 0;
 
-            if (!float.TryParse(textBox7.Text, out num7))
+            if (!double.TryParse(textBox7.Text, out num7))
             {
                 if (textBox7.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -170,14 +170,15 @@ namespace MathPaper
 
         private void textBox8_Validating(object sender, CancelEventArgs e)
         {
-            float num8 = 0;
+            double num8 = 0;
 
-            if (!float.TryParse(textBox8.Text, out num8))
+            if (!double.TryParse(textBox8.Text, out num8))
             {
                 if (textBox8.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
                 else
                     MessageBox.Show("ERROR!");
+
                 textBox8.Clear();
                 textBox8.Focus();
             }
@@ -193,22 +194,22 @@ namespace MathPaper
 
         private void impartireBtn_Click(object sender, EventArgs e)
         {
-            float num10 = 0;
-            num10 = Convert.ToInt32(textBox10.Text);
+            double num10 = 0;
+            num10 = Convert.ToDouble32(textBox10.Text);
 
-            float num11 = 0;
-            num11 = Convert.ToInt32(textBox11.Text);
+            double num11 = 0;
+            num11 = Convert.ToDouble32(textBox11.Text);
 
-            float num12 = num10 / num11;
+            double num12 = num10 / num11;
 
             textBox12.Text = num12.ToString();
         }
 
         private void textBox10_Validating(object sender, CancelEventArgs e)
         {
-            float num10 = 0;
+            double num10 = 0;
 
-            if (!float.TryParse(textBox10.Text, out num10))
+            if (!double.TryParse(textBox10.Text, out num10))
             {
                 if (textBox10.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -222,9 +223,9 @@ namespace MathPaper
 
         private void textBox11_Validating(object sender, CancelEventArgs e)
         {
-            float num11 = 0;
+            double num11 = 0;
 
-            if (!float.TryParse(textBox11.Text, out num11))
+            if (!double.TryParse(textBox11.Text, out num11))
             {
                 if (textBox11.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -253,19 +254,19 @@ namespace MathPaper
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            int num13 = 0;
-            num13 = Convert.ToInt32(textBox13.Text);
+            double num13 = 0;
+            num13 = Convert.ToDouble32(textBox13.Text);
 
-            int num14 = num13 * num13;
+            double num14 = num13 * num13;
 
             textBox14.Text = num14.ToString();
         }
 
         private void textBox13_Validating(object sender, CancelEventArgs e)
         {
-            int num13 = 0;
+            double num13 = 0;
 
-            if (!int.TryParse(textBox13.Text, out num13))
+            if (!double.TryParse(textBox13.Text, out num13))
             {
                 if (textBox13.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -285,19 +286,19 @@ namespace MathPaper
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int num15 = 0;
-            num15 = Convert.ToInt32(textBox15.Text);
+            double num15 = 0;
+            num15 = Convert.ToDouble32(textBox15.Text);
 
-            int num16 = num15 * num15 * num15;
+            double num16 = num15 * num15 * num15;
 
             textBox16.Text = num16.ToString();
         }
 
         private void textBox15_Validating(object sender, CancelEventArgs e)
         {
-            int num15 = 0;
+            double num15 = 0;
 
-            if (!int.TryParse(textBox15.Text, out num15))
+            if (!double.TryParse(textBox15.Text, out num15))
             {
                 if (textBox15.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -317,19 +318,19 @@ namespace MathPaper
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int num17 = 0;
-            num17 = Convert.ToInt32(textBox17.Text);
+            double num17 = 0;
+            num17 = Convert.ToDouble32(textBox17.Text);
 
-            int num18 = num17 * num17 * num17 * num17;
+            double num18 = num17 * num17 * num17 * num17;
 
             textBox18.Text = num18.ToString();
         }
 
         private void textBox17_Validating(object sender, CancelEventArgs e)
         {
-            int num17 = 0;
+            double num17 = 0;
 
-            if (!int.TryParse(textBox17.Text, out num17))
+            if (!double.TryParse(textBox17.Text, out num17))
             {
                 if (textBox17.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
@@ -349,19 +350,19 @@ namespace MathPaper
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int num19 = 0;
-            num19 = Convert.ToInt32(textBox19.Text);
+            double num19 = 0;
+            num19 = Convert.ToDouble32(textBox19.Text);
 
-            int num20 = num19 * num19 * num19 * num19 * num19;
+            double num20 = num19 * num19 * num19 * num19 * num19;
 
             textBox20.Text = num20.ToString();
         }
 
         private void textBox19_Validating(object sender, CancelEventArgs e)
         {
-            int num19 = 0;
+            double num19 = 0;
 
-            if (!int.TryParse(textBox19.Text, out num19))
+            if (!double.TryParse(textBox19.Text, out num19))
             {
                 if (textBox19.Text == "")
                     MessageBox.Show("ERROR! Complete all!");
