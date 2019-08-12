@@ -1,0 +1,19 @@
+c:\users\amdev\documents\visual studio 2015\Projects\MathPaper\bin\Debug\MathPaper.exe.config
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\bin\Debug\MathPaper.exe
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\bin\Debug\MathPaper.pdb
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.csprojResolveAssemblyReference.cache
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.Form1.resources
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.Properties.Resources.resources
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.csproj.GenerateResource.Cache
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.exe
+C:\Users\AMdev\documents\visual studio 2015\Projects\MathPaper\obj\Debug\MathPaper.pdb
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.csprojAssemblyReference.cache
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.Form1.resources
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.csproj.GenerateResource.cache
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.exe
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.pdb
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\bin\Debug\MathPaper.exe.config
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\bin\Debug\MathPaper.exe
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\bin\Debug\MathPaper.pdb
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.Properties.Resources.resources
+C:\Users\Paula\Desktop\MathPaper-master\MathPaper [2.0]\obj\Debug\MathPaper.csproj.CoreCompileInputs.cache
